@@ -1,0 +1,76 @@
+#sign-in{
+    background-color: #4285f4;
+    color: white;
+    font-weight: bold;
+}
+
+.g-apps{
+    height: 2em;
+    max-width: 100%;
+    opacity: .5;
+}
+
+.g-apps:hover{
+    opacity: .85;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    height: 3em;
+}
+
+.navleft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.navright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.nav-items{
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+body{
+    font-family: arial,sans-serif;
+    font-size: 0.9em;
+}
+
+li{
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    opacity: .85;
+}
+
+.navleft li{
+    margin-left: 15px;
+} 
+
+.navright li{
+    margin-right: 15px;
+}
+
+.navbar-foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
