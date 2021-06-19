@@ -1,7 +1,16 @@
 #sign-in{
     background-color: #4285f4;
+    border: 1px solid #4285f4;
     color: white;
     font-weight: bold;
+    padding: 7px 15px;
+    border-radius: 5%;
+}
+
+#sign-in:hover{
+    opacity: 1;
+    text-decoration: none;
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
 .g-apps{
@@ -56,21 +65,25 @@ a:hover{
 }
 
 .navleft li{
-    margin-left: 15px;
+    margin-left: 1.8em;
 } 
 
 .navright li{
-    margin-right: 15px;
+    margin-right: 1.8em;
 }
 
 .navbar-foot{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0;
     position: fixed;
     width: 100%;
     bottom: 0;
+    left: 0;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
+}
+
+.navbar-foot .nav-items{
+    color: #5f6368;
 }
